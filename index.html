@@ -15,11 +15,16 @@
     <div id="board"></div>
     <div id="promo"><div class="choices" id="promoChoices"></div></div>
   </div>
+<div class="controls">
+  <button class="ui" id="undoBtn">Undo</button>
+  <button class="ui" id="newBtn">New game</button>
 
-  <div class="controls">
-    <button class="ui" id="undoBtn">Undo</button>
-    <button class="ui" id="newBtn">New game</button>
-  </div>
+  <select class="ui" id="difficulty">
+    <option value="easy">Easy</option>
+    <option value="medium" selected>Medium</option>
+    <option value="hard">Hard</option>
+  </select>
+</div>
 
   <script src="chess.js"></script>
 </body>

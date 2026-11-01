@@ -221,3 +221,38 @@ h1 {
 .ui:hover  { background: #243049; }
 .ui:active { transform: translateY(1px); }
 .ui:focus-visible { outline: 3px solid var(--selected); outline-offset: 2px; }
+
+/* ===== Difficulty Selector ===== */
+
+#difficulty.ui {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: var(--btn-bg);
+  color: var(--text);
+  border: 2px solid var(--btn-border);
+  border-radius: 8px;
+  padding: 10px 38px 10px 18px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+
+  /* Dropdown arrow */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23f1f5f9' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+}
+
+#difficulty.ui:hover {
+  background-color: #243049;
+}
+
+#difficulty.ui:focus-visible {
+  outline: 3px solid var(--selected);
+  outline-offset: 2px;
+}
+
+#difficulty option {
+  background: var(--btn-bg);
+  color: var(--text);
+}

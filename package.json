@@ -1,0 +1,24 @@
+{
+  "name": "chess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chess.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhikulpal177-hue/chess-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/abhikulpal177-hue/chess-game/issues"
+  },
+  "homepage": "https://github.com/abhikulpal177-hue/chess-game#readme",
+  "dependencies": {
+    "stockfish": "^19.0.1"
+  }
+}
